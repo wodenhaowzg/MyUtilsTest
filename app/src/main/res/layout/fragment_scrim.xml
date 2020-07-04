@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg_login"
+	android:orientation="vertical">
+
+	<ImageView
+		android:id="@+id/scri_text_icon"
+		android:layout_width="match_parent"
+		android:layout_height="151dp"/>
+
+	<TextView
+		android:id="@+id/scri_change_num"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		android:text="当前层数0"
+		android:textColor="#ffffff"/>
+
+	<Button
+		android:id="@+id/scri_add_change"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		android:text="增加层数"/>
+</LinearLayout>
